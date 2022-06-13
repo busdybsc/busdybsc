@@ -8,16 +8,31 @@ import NETWORK_HELPER from "../lib/networkHelper";
 import ConnectButtonHandler from "../components/ConnectButtonHandler";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { isMobile } from "react-device-detect";
 
 const Header = (props) => {
     const [connectedNetwork, setConnectedNetwork] = useState(undefined);
     const [mobileNav, setMobileNav] = useState(false);
     const [connectedAddress, setConnectedAddress] = useState(undefined);
     const [selectedNetwork, setSelectedNetwork] = useState(undefined);
+    const [ headerStyle, setHeaderStyle ] = useState({height: '100%', margin: 0});
+    const [ logoStyle, setLogoStyle ] = useState({height: '85px', width: '85px'});
 
     const mobileNavHandler = () => {
         setMobileNav(!mobileNav);
     }
+
+    useEffect(() => {
+        if (isMobile) {
+            setHeaderStyle({width: '100px'})
+        }
+    }, [])
+
+    useEffect(() => {
+        if (isMobile) {
+            setLogoStyle({...logoStyle, height: 'auto'});
+        }
+    }, [])
 
     useEffect(() => {
         if (typeof props.accountSetter != "undefined") {
@@ -37,7 +52,7 @@ const Header = (props) => {
             setSelectedNetwork(network_data);
         }
     }, [connectedNetwork]);
-
+    
     return (
         <>
             <header
@@ -47,20 +62,34 @@ const Header = (props) => {
             >
                 <Container>
                     <div className={styles.header__row}>
-                        <div className={styles.header__logo}>
-                            <Link href="/">
-                                <div className={styles.header__logo_img}>
+                        <div className={styles.header__logo} onClick={() => window.location = 'https://busdytokenbsc.com'}>
+                            <Link href="https://busdytokenbsc.com">
+                                <>
+                                <div className={styles.header__logo_img} style={{ width: !isMobile ? '85px' : 'auto', height: '85px'}}>
                                     <div className={styles.header__logo_inner}>
                                         <Image
-                                            styles={{ marginRight: "3rem" }}
-                                            src="/images/logo.png"
+                                            styles={{}}
+                                            src="/images/bsdy_master_logo.png"
                                             alt="$BUSDY"
-                                            width={264}
-                                            height={97}
+                                            width={60}
+                                            height={60}
                                             layout="responsive"
                                         />
                                     </div>
                                 </div>
+                                <div className={styles.header__logo_img}>
+                                    <div className={styles.header__logo_inner} style={headerStyle}>
+                                        <Image
+                                            styles={{}}
+                                            src="/images/busdy_token_header.png"
+                                            alt="$BUSDY"
+                                            width={370}
+                                            height={199}
+
+                                        />
+                                    </div>
+                                </div>
+                                </>
                             </Link>
                         </div>
 

@@ -18,7 +18,7 @@ const Row = (props) => {
     : "";
   props.customClass != undefined ? (classes = appendClasses(classesArr)) : "";
 
-  return <div className={clsx("row", classes)}>{props.children}</div>;
+  return <div className={clsx("row", classes)} style={props.style}>{props.children}</div>;
 };
 
 export default Row;

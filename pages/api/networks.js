@@ -4,6 +4,7 @@ import NETWORK_HELPER from "../../lib/networkHelper";
 export default function handler(req, res) {
     API_HELPER.get("networks")
         .then((response) => {
+            console.log("response:", response);
             let available_networks = [];
             for (let i = 0; i < response.content.length; i++) {
                 let d = response.content[i];
@@ -22,6 +23,7 @@ export default function handler(req, res) {
             return false;
         })
         .catch((error) => {
+            console.log("error:", error)
             res.status(406).json(error);
         });
 

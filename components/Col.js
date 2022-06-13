@@ -33,7 +33,7 @@ const Col = (props) => {
 	props.lg ? lg = 'col-lg-'+props.lg : props.lg;
 	
 	return (
-		<div className={clsx(xs, sm, md, lg, classes)}>{props.children}</div>
+		<div className={clsx(xs, sm, md, lg, classes)} style={props.style}>{props.children}</div>
 	);
 };
 

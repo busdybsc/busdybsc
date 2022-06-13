@@ -17,6 +17,7 @@ import NETWORK_HELPER from "../../lib/networkHelper";
 import web3Helper from "../../lib/web3Helper";
 import SVGLoader from "./SVGLoader";
 import swal from "sweetalert";
+import Image from "next/image";
 
 const MixerInterface = ({ input_network, user_account, onConnect }) => {
     const [networks, setNetworks] = useState(false);
@@ -70,18 +71,21 @@ const MixerInterface = ({ input_network, user_account, onConnect }) => {
 
     useEffect(() => {
         let net_w = NETWORK_HELPER.getNetworkData(recipientNetwork);
+        // console.log('net:', net_w)
         setOutputCurrency(net_w.currency);
 
         setChangeRate(0);
-        fetch("/api/rate?from=" + callerNetwork + "&to=" + recipientNetwork)
-            .then(async (rate) => {
-                let a = await rate.json();
-                setChangeRate(a);
-            })
-            .catch((error) => {
-                setChangeRate(0);
-                console.log("error", error);
-            });
+        if (callerNetwork && recipientNetwork) {
+            fetch("/api/rate?from=" + callerNetwork + "&to=" + recipientNetwork)
+                .then(async (rate) => {
+                    let a = await rate.json();
+                    setChangeRate(a);
+                })
+                .catch((error) => {
+                    setChangeRate(0);
+                    console.log("error", error);
+                });
+        }
     }, [callerNetwork, recipientNetwork]);
 
     useEffect(() => {
@@ -276,6 +280,8 @@ const MixerInterface = ({ input_network, user_account, onConnect }) => {
         setAdvancedOptions(!advancedOptions);
     };
 
+    console
+
     return (
         <>
             {mixerData && (
@@ -289,8 +295,8 @@ const MixerInterface = ({ input_network, user_account, onConnect }) => {
                     contractTransaction={contractTransaction}
                 />
             )}
-
-            <Col xs="12" md="4" customClass="col-md-offset-4">
+            
+            <Col xs="12" md="4" customClass="col-md-offset-4" style={{margin: 0, paddingTop: 0}}>
                 <div className={styles.dapp_box}>
                     <form onSubmit={handleSubmitEvent}>
                         <Content
@@ -504,7 +510,7 @@ const Content = ({
                 </Col>
                 <Col xs="12" customClass="pb-0">
                     <p className="text-center">
-                        For support join to our <a href="https://t.me/BUSDYportal" rel="norefferer" target="_blank">Telegram group</a><br />
+                        For support join our <a href="https://t.me/blockblendIO" rel="norefferer" target="_blank">Telegram Group</a><br />
                         <small>Powered by <a href="https://blockblend.io/" target="_blank" rel="noreferrer">blockblend.io</a></small>
                     </p>
                 </Col>

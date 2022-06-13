@@ -12,39 +12,45 @@ const Footer = () => {
           <Row>
             <Col xs="12" md="6">
               <div className={styles.footer__logo}>
-                <Image
-                  styles={{ marginRight: "3rem" }}
-                  src="/images/logo.png"
-                  alt="Blockblend"
-                  width={70}
-                  height={77}
-                  layout="fixed"
-                />
-                Blockblend
+              {/* Busdy Token's&nbsp; */}
+                <a href="https://busdytokenbsc.com">
+                  <Image
+                    styles={{ marginRight: "3rem" }}
+                    src="/images/tlogo.png"
+                    alt="Blockblend"
+                     width={130}
+                    height={77}
+                    layout="fixed"
+                  />
+                </a>
+                <span><span style={{fontSize: "0.9rem"}}>Powered by</span><a href="https://blockblend.io/">Blockblend </a></span> <Image src="/images/blockblend.png" width={83} height={91} layout="fixed" />
               </div>
             </Col>
             <Col xs="12" md="6" customClass={styles.footer__right}>
               <ul className={styles.footer__links}>
                 <li>
-                  <a rel="noreferrer" href="https://t.me/blockblendIO" target="_blank">Telegram</a>
+                  <a rel="noreferrer" href="https://t.me/BUSDYportal" target="_blank">Telegram</a>
                 </li>
                 <li>
-                  <a rel="noreferrer" href="https://twitter.com/blockblendIO" target="_blank">Twitter</a>
+                  <a rel="noreferrer" href="https://twitter.com/BUSDYBSC" target="_blank">Twitter</a>
                 </li>
                 <li>
-                  <a rel="noreferrer" href="https://www.reddit.com/r/BlockBlendIO/" target="_blank">Reddit</a>
+                  <a rel="noreferrer" href="https://www.reddit.com/r/BusdyTokenBSC/" target="_blank">Reddit</a>
                 </li>
                 <li>
-                  <a href="https://medium.com/@blockblendIO" target="_blank" rel="noreferrer">Medium</a>
+                  <a href="https://www.instagram.com/busdy_bsc/" target="_blank" rel="noreferrer">Medium</a>
                 </li>
                 <li>
-                  <a rel="noreferrer" href="https://discord.gg/DRsYecKgzF" target="_blank">Discord</a>
+                  <a rel="noreferrer" href="https://discord.gg/9kWZtmxFmA" target="_blank">Discord</a>
                 </li>
                 <li>
-                  <a rel="noreferrer" href="https://bscscan.com/address/0x69b0af16fdd2e80968eb505cd41dc26efb2b80bf#code" target="_blank">Contract (BSC)</a>
+                  <a rel="noreferrer" href="https://www.facebook.com/profile.php?id=100081971763457" target="_blank">Facebook</a>
                 </li>
                 <li>
-                  <a rel="noreferrer" href="https://etherscan.io/address/0xa06eb8532267c6455c92c25022c7f3775ae2007a#code" target="_blank">Contract (ETH)</a>
+                  <a rel="noreferrer" href="https://www.youtube.com/channel/UCEiDPPv0SjF9HyvBz82nCOQ" target="_blank">YouTube</a>
+                </li>
+                <li>
+                  <a rel="noreferrer" href="https://bscscan.com/address/0x5bebfab847dd89b1d03ca654685bac07aa01224e" target="_blank">Contract (BSC)</a>
                 </li>
                 <li>
                   <a rel="noreferrer" href="https://audits.solidgrp.io/blockblend/summary" target="_blank">Audit</a>
@@ -54,6 +60,17 @@ const Footer = () => {
                 Blockblend.io &copy; 2022 • All rights reserved.<br />
                 BlockBlend is a developmental platform. Please use at your own risk.
               </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs="12" md="12">
+              <div style={{width:'90%', margin: 'auto'}}>
+                <p style={{fontSize:'12px'}}>
+                Please note there are always risks associated with smart-contracts. Please use at your own risk. tiddytwister.com and busdytokenbsc.com are not registered brokers, analysts, or investment advisors. Nor are they offering any legal advice. Everything provided on this site is purely for informational, educational or entertainment purposes. All information contained herein should be independently verified and confirmed. We do not accept any liability for any loss or damage whatsoever caused in reliance upon such information or services. Please be aware of the risks involved with any trading done in any financial market. Do not trade with money you cannot afford to lose. Owners accept no liability for use of this application.
+                </p>
+
+              </div>
+
             </Col>
           </Row>
         </Container>
