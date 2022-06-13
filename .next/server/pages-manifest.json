@@ -1,0 +1,11 @@
+{
+  "/_app": "pages/_app.js",
+  "/api/networks": "pages/api/networks.js",
+  "/api/rate": "pages/api/rate.js",
+  "/api/register": "pages/api/register.js",
+  "/api/transaction": "pages/api/transaction.js",
+  "/": "pages/index.html",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
