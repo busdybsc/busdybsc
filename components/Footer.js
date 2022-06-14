@@ -3,6 +3,7 @@ import Row from "../components/Row";
 import Image from "next/image";
 import Container from "../components/Container";
 import styles from "../styles/Footer.module.scss";
+import { isMobile } from "react-device-detect";
 
 const Footer = () => {
   return (
@@ -18,12 +19,12 @@ const Footer = () => {
                     styles={{ marginRight: "3rem" }}
                     src="/images/tlogo.png"
                     alt="Blockblend"
-                     width={130}
+                    width={130}
                     height={77}
                     layout="fixed"
                   />
                 </a>
-                <span><span style={{fontSize: "0.9rem"}}>Powered by</span><a href="https://blockblend.io/">Blockblend </a></span> <Image src="/images/blockblend.png" width={83} height={91} layout="fixed" />
+                <span><span style={{fontSize: "0.9rem"}}>Powered by</span><a href="https://blockblend.io/">Blockblend </a></span> <Image src="/images/blockblend.png" width={isMobile ? 70 : 91} height={isMobile? 70 : 91} layout="fixed" />
               </div>
             </Col>
             <Col xs="12" md="6" customClass={styles.footer__right}>
@@ -49,9 +50,9 @@ const Footer = () => {
                 <li>
                   <a rel="noreferrer" href="https://www.youtube.com/channel/UCEiDPPv0SjF9HyvBz82nCOQ" target="_blank">YouTube</a>
                 </li>
-                <li>
+                {/* <li>
                   <a rel="noreferrer" href="https://bscscan.com/address/0x5bebfab847dd89b1d03ca654685bac07aa01224e" target="_blank">Contract (BSC)</a>
-                </li>
+                </li> */}
                 <li>
                   <a rel="noreferrer" href="https://audits.solidgrp.io/blockblend/summary" target="_blank">Audit</a>
                 </li>

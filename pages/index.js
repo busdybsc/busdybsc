@@ -129,17 +129,17 @@ transaction details, token origin and your destination wallet, using built
                         <div>
                             <h3>DEPOSIT (Wallet Connected)</h3>
                             <p>1. Connect wallet at top right of page.<br />
-                                2. From the pulldown menu, select the chains you are bridging from and too (Insure your wallet is connected to the network you are bridging from).<br />
+                                2. From the pulldown menu, select the chain(s) you are bridging from and to (ensure your wallet is connected to the network you are bridging from). You can even send tokens to a wallet on the same chain, for example: $ETH to $ETH or $BNB to $BNB, etc...<br />
                                 3. Enter the recipient wallet address.<br />
                                 4. Choose a fixed amount of tokens to send and click “next.”<br />
                                 5. Review the details and retain the recovery key for your records.<br />
                                 6. Click the “confirm transaction” button and sign the transaction in your wallet.<br />
                             </p>
                             <br /><br />
-                            <h3>CUSTOM DEPOSIT (Wallet NOT Connected)</h3><br />
+                            <h3>CUSTOM DEPOSIT (Wallet NOT Connected)</h3>
                             <p>
-                    1. From the pulldown menu, select the chains you are bridging from and too.<br />
-                    2. Enter the recipient wallet address (depending on use case, this may be the same address you are sending from).<br />
+                    1. From the pulldown menu, select the chains you are bridging from and to.<br />
+                    2. Enter the recipient wallet address (depending on your use case, this may be the same address you are sending from).<br />
                     3. Ensure “custom” is selected and click “next.”<br />
                     4. Send the desired amount to the address provided within the displayed time limit (be sure to verify the recipient address).<br />
                     5. Be sure to send the correct currency (as chosen in step one) to the generated address provided. <br />
@@ -156,40 +156,34 @@ transaction details, token origin and your destination wallet, using built
                         <div>
                         <h3>ADVANCED SETTINGS</h3>
                             <p>
-                            ADVANCED MODE opens a subset of features recommended for power users only. <br /><br /> These include custom time delay settings and the option to include a unique user secret phrase which will ensure singular us of dynamic addresses. 
+                            ADVANCED MODE opens a subset of features recommended for power users only. <br /><br /> These include custom time delay settings and the option to include a unique user secret phrase which will ensure singular use of dynamic addresses, ensuring your own crypto coins are never sent back to you in the future.
                                 <br />
                                 <br />
-                                For enterprise level privacy, we recommend using a higher timer delay of up to 24 hours.
+                                For enterprise level privacy, we recommend using a higher time delay of up to 24 hours.
                                 <br /><br />
-                                Selecting the "Custom" option allows you to deposit multiple times from alternate addresses provided you stay within the min/max value range and the order is fulfilled before the selected time period expires.
+                                Selecting the "Custom" option allows you to deposit multiple times from several different addresses, provided you stay within the min/max value range and the order is fulfilled before the selected time period expires.
                                 <br /><br />
 
                             </p>
-
-                            <p>
-<h3>DELIVERY</h3><br />
+<h3>DELIVERY</h3>
+<p>
 Your assets will arrive in the recipient wallet as the native tokens, NOT as wrapped tokens.<br />
 <br />
 For example, if you sent $ETH and the recipient network is Cronos, you will receive native $CRO tokens.
 <br /><br />
-                            </p>
-                        </div>
+</p>       </div>
                     </Col>
                     <Col xs="12" sm="4">
                         <div>
+                            <h3>NEXT-LEVEL PRIVACY</h3>
+<p>The bridge has multiple use cases, sending isn't the twister's only trick.<br /><br/> For example, if a content creator wanted to receive anonymous crypto payments without exposing a private wallet address, they can generate a dynamic address within the app using an hour-long delay and accept tips or payments from hundreds of people during a live stream or podcast. <br /><br />Likewise, you can make payments while concealing your private address from the recipient.<br /></p>
+
                             <p>
-                            <h3>NEXT-LEVEL PRIVACY</h3><br />
-The bridge has multiple use cases, sending isn't the twister's only trick.<br /><br/> For example, if a content creator wanted to receive anonymous crypto payments without exposing a private wallet address, they can generate a dynamic address within the app using an hour-long delay and take tips or payments from hundreds of people during a live stream or podcast, etc.<br />
+                            With the present climate and impending government regulations coming to the crypto space, we firmly believe anonymity is of the UTMOST importance and want to keep crypto the way Satoshi intended Bitcoin to be -- <strong>PRIVATE</strong> and <strong>ANONYMOUS.</strong> <br/><br />
 
-                            </p>
-                            <p>
-                            With the present climate and impending government regulations coming to the crypto space, we firmly believe anonymity going forward is of the UTMOST importance and want to keep crypto the way Satoshi intended it to be -- <strong>PRIVATE</strong> and <strong>ANONYMOUS.</strong> <br/><br />
+When on-ramping fiat (real-world currency) into crypto, you are essentially linking your real-world persona to a digital wallet. KYC almost defeats the original purpose of crypto. <br /><br />Using TIDDY TWISTER technology you can detach your crypto activity from your real-world self forever and onwards. <br/><br />
 
-When on-ramping fiat (real world currency) into crypto, you are essentially linking your real world persona to a digital wallet. This almost defeats the original purpose of crypto. <br /><br />Using TIDDY TWISTER technology you can detach your crypto activity from your real world self forever and onwards. <br/><br />
-
-Why...<br/><br /> With regulations, going forward, it's becoming evident that governing bodies are targeting the crypto space by putting forward such notions as "taxation on unrealised crypto gains" and "country-wide crypto bans", etc.
-
-<br/><br />Tiddy Twister strongly believes what you choose to do with your crypto should be remain YOUR business and most importantly... kept PRIVATE. <br /><br />
+What you choose to do with your crypto should remain YOUR business and most importantly... kept PRIVATE. <br /><br />
 
                        </p>
                             
