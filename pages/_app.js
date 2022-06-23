@@ -1,6 +1,11 @@
 import Layout from "../components/Layout";
 import Head from "next/head";
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-232328505-1', []);
+
 import "../styles/globals.scss";
+import React from "react";
 
 function MyApp({ Component, pageProps }) {
   return (

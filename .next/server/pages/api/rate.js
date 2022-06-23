@@ -1,49 +1,45 @@
 "use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 620;
-exports.ids = [620];
+exports.id = "pages/api/rate";
+exports.ids = ["pages/api/rate"];
 exports.modules = {
 
-/***/ 3582:
+/***/ "cors":
+/*!***********************!*\
+  !*** external "cors" ***!
+  \***********************/
 /***/ ((module) => {
 
 module.exports = require("cors");
 
 /***/ }),
 
-/***/ 7458:
+/***/ "(api)/./lib/apiHelper.js":
+/*!**************************!*\
+  !*** ./lib/apiHelper.js ***!
+  \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ handler)
-/* harmony export */ });
-/* harmony import */ var _lib_apiHelper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6176);
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var cors__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! cors */ \"cors\");\n/* harmony import */ var cors__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(cors__WEBPACK_IMPORTED_MODULE_0__);\n\nconst API_HELPER = {\n  api_url: process.env.API_URL,\n  headers: {\n    \"Content-Type\": \"application/json\",\n    Authorization: \"Bearer \" + process.env.API_KEY\n  },\n  runMiddleware: (req, res) => {\n    const fn = cors__WEBPACK_IMPORTED_MODULE_0___default()({\n      methods: [\"GET\", \"HEAD\"]\n    });\n    return new Promise((resolve, reject) => {\n      fn(req, res, result => {\n        if (result instanceof Error) {\n          return reject(result);\n        }\n\n        return resolve(result);\n      });\n    });\n  },\n  get: url => {\n    return new Promise((resolve, reject) => {\n      fetch(API_HELPER.api_url + url, {\n        method: \"get\",\n        headers: API_HELPER.headers\n      }).then(response => {\n        response.json().then(content => {\n          if (content.error) {\n            return reject(content.message);\n          }\n\n          return resolve(content);\n        }).catch(() => {\n          return reject(false);\n        });\n      }).catch(error => {\n        return resolve(error);\n      });\n    });\n  },\n  post: (url, data) => {\n    return new Promise((resolve, reject) => {\n      fetch(API_HELPER.api_url + url, {\n        method: \"post\",\n        headers: API_HELPER.headers,\n        body: JSON.stringify(data)\n      }).then(response => {\n        response.json().then(content => {\n          if (content.error) {\n            return reject(content.message);\n          }\n\n          return resolve(content);\n        }).catch(() => {\n          return reject(false);\n        });\n      }).catch(error => {\n        return resolve(error);\n      });\n    });\n  }\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (API_HELPER);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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aUJBQU9iLE1BQU0sQ0FBQyxLQUFELENBQWI7QUFDSCxTQVhMO0FBWUgsT0FsQkwsRUFtQkthLEtBbkJMLENBbUJZRixLQUFELElBQVc7QUFDZCxlQUFPWixPQUFPLENBQUNZLEtBQUQsQ0FBZDtBQUNILE9BckJMO0FBc0JILEtBdkJNLENBQVA7QUF3Qkg7QUEzRWMsQ0FBbkI7QUE4RUEsaUVBQWUxQixVQUFmIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYmxvY2tibGVuZC8uL2xpYi9hcGlIZWxwZXIuanM/NzEzMCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgQ29ycyBmcm9tIFwiY29yc1wiO1xuXG5jb25zdCBBUElfSEVMUEVSID0ge1xuICAgIGFwaV91cmw6IHByb2Nlc3MuZW52LkFQSV9VUkwsXG5cbiAgICBoZWFkZXJzOiB7XG4gICAgICAgIFwiQ29udGVudC1UeXBlXCI6IFwiYXBwbGljYXRpb24vanNvblwiLFxuICAgICAgICBBdXRob3JpemF0aW9uOiBcIkJlYXJlciBcIitwcm9jZXNzLmVudi5BUElfS0VZLFxuICAgIH0sXG5cbiAgICBydW5NaWRkbGV3YXJlOiAocmVxLCByZXMpID0+IHtcbiAgICAgICAgY29uc3QgZm4gPSBDb3JzKHtcbiAgICAgICAgICAgIG1ldGhvZHM6IFtcIkdFVFwiLCBcIkhFQURcIl0sXG4gICAgICAgIH0pO1xuXG4gICAgICAgIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7XG4gICAgICAgICAgICBmbihyZXEsIHJlcywgKHJlc3VsdCkgPT4ge1xuICAgICAgICAgICAgICAgIGlmIChyZXN1bHQgaW5zdGFuY2VvZiBFcnJvcikge1xuICAgICAgICAgICAgICAgICAgICByZXR1cm4gcmVqZWN0KHJlc3VsdCk7XG4gICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgcmV0dXJuIHJlc29sdmUocmVzdWx0KTtcbiAgICAgICAgICAgIH0pO1xuICAgICAgICB9KTtcbiAgICB9LFxuXG4gICAgZ2V0OiAodXJsKSA9PiB7XG4gICAgICAgIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7XG4gICAgICAgICAgICBmZXRjaChBUElfSEVMUEVSLmFwaV91cmwgKyB1cmwsIHtcbiAgICAgICAgICAgICAgICBtZXRob2Q6IFwiZ2V0XCIsXG4gICAgICAgICAgICAgICAgaGVhZGVyczogQVBJX0hFTFBFUi5oZWFkZXJzLFxuICAgICAgICAgICAgfSlcbiAgICAgICAgICAgICAgICAudGhlbigocmVzcG9uc2UpID0+IHtcbiAgICAgICAgICAgICAgICAgICAgcmVzcG9uc2VcbiAgICAgICAgICAgICAgICAgICAgICAgIC5qc29uKClcbiAgICAgICAgICAgICAgICAgICAgICAgIC50aGVuKChjb250ZW50KSA9PiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGNvbnRlbnQuZXJyb3IpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHJlamVjdChjb250ZW50Lm1lc3NhZ2UpO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiByZXNvbHZlKGNvbnRlbnQpO1xuICAgICAgICAgICAgICAgICAgICAgICAgfSlcbiAgICAgICAgICAgICAgICAgICAgICAgIC5jYXRjaCgoKSA9PiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHJlamVjdChmYWxzZSk7XG4gICAgICAgICAgICAgICAgICAgICAgICB9KTtcbiAgICAgICAgICAgICAgICB9KVxuICAgICAgICAgICAgICAgIC5jYXRjaCgoZXJyb3IpID0+IHtcbiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHJlc29sdmUoZXJyb3IpO1xuICAgICAgICAgICAgICAgIH0pO1xuICAgICAgICB9KTtcbiAgICB9LFxuXG4gICAgcG9zdDogKHVybCwgZGF0YSkgPT4ge1xuICAgICAgICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4ge1xuICAgICAgICAgICAgZmV0Y2goQVBJX0hFTFBFUi5hcGlfdXJsICsgdXJsLCB7XG4gICAgICAgICAgICAgICAgbWV0aG9kOiBcInBvc3RcIixcbiAgICAgICAgICAgICAgICBoZWFkZXJzOiBBUElfSEVMUEVSLmhlYWRlcnMsXG4gICAgICAgICAgICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoZGF0YSksXG4gICAgICAgICAgICB9KVxuICAgICAgICAgICAgICAgIC50aGVuKChyZXNwb25zZSkgPT4ge1xuICAgICAgICAgICAgICAgICAgICByZXNwb25zZVxuICAgICAgICAgICAgICAgICAgICAgICAgLmpzb24oKVxuICAgICAgICAgICAgICAgICAgICAgICAgLnRoZW4oKGNvbnRlbnQpID0+IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoY29udGVudC5lcnJvcikge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gcmVqZWN0KGNvbnRlbnQubWVzc2FnZSk7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHJlc29sdmUoY29udGVudCk7XG4gICAgICAgICAgICAgICAgICAgICAgICB9KVxuICAgICAgICAgICAgICAgICAgICAgICAgLmNhdGNoKCgpID0+IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gcmVqZWN0KGZhbHNlKTtcbiAgICAgICAgICAgICAgICAgICAgICAgIH0pO1xuICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgLmNhdGNoKChlcnJvcikgPT4ge1xuICAgICAgICAgICAgICAgICAgICByZXR1cm4gcmVzb2x2ZShlcnJvcik7XG4gICAgICAgICAgICAgICAgfSk7XG4gICAgICAgIH0pO1xuICAgIH0sXG59O1xuXG5leHBvcnQgZGVmYXVsdCBBUElfSEVMUEVSO1xuIl0sIm5hbWVzIjpbIkNvcnMiLCJBUElfSEVMUEVSIiwiYXBpX3VybCIsInByb2Nlc3MiLCJlbnYiLCJBUElfVVJMIiwiaGVhZGVycyIsIkF1dGhvcml6YXRpb24iLCJBUElfS0VZIiwicnVuTWlkZGxld2FyZSIsInJlcSIsInJlcyIsImZuIiwibWV0aG9kcyIsIlByb21pc2UiLCJyZXNvbHZlIiwicmVqZWN0IiwicmVzdWx0IiwiRXJyb3IiLCJnZXQiLCJ1cmwiLCJmZXRjaCIsIm1ldGhvZCIsInRoZW4iLCJyZXNwb25zZSIsImpzb24iLCJjb250ZW50IiwiZXJyb3IiLCJtZXNzYWdlIiwiY2F0Y2giLCJwb3N0IiwiZGF0YSIsImJvZHkiLCJKU09OIiwic3RyaW5naWZ5Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(api)/./lib/apiHelper.js\n");
 
-function handler(req, res) {
-  const {
-    query: {
-      from,
-      to
-    },
-    method
-  } = req;
-  _lib_apiHelper__WEBPACK_IMPORTED_MODULE_0__/* ["default"].get */ .Z.get("rate/" + from + "/" + to).then(response => {
-    console.log("response", response);
+/***/ }),
 
-    if (!response.error && response.rate) {
-      res.status(200).json(response.rate);
-      return;
-    }
+/***/ "(api)/./pages/api/rate.js":
+/*!***************************!*\
+  !*** ./pages/api/rate.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-    res.status(406).json("error");
-    return false;
-  }).catch(error => {
-    console.log("error", error);
-    res.status(406).json(error);
-  });
-}
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ handler)\n/* harmony export */ });\n/* harmony import */ var _lib_apiHelper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../lib/apiHelper */ \"(api)/./lib/apiHelper.js\");\n\nfunction handler(req, res) {\n  const {\n    query: {\n      from,\n      to\n    },\n    method\n  } = req;\n  _lib_apiHelper__WEBPACK_IMPORTED_MODULE_0__[\"default\"].get(\"rate/\" + from + \"/\" + to).then(response => {\n    console.log(\"response\", response);\n\n    if (!response.error && response.rate) {\n      res.status(200).json(response.rate);\n      return;\n    }\n\n    res.status(406).json(\"error\");\n    return false;\n  }).catch(error => {\n    console.log(\"error\", error);\n    res.status(406).json(error);\n  });\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9wYWdlcy9hcGkvcmF0ZS5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7OztBQUFBO0FBRWUsU0FBU0MsT0FBVCxDQUFpQkMsR0FBakIsRUFBc0JDLEdBQXRCLEVBQTJCO0FBQ3RDLFFBQU07QUFDRkMsSUFBQUEsS0FBSyxFQUFFO0FBQUVDLE1BQUFBLElBQUY7QUFBUUMsTUFBQUE7QUFBUixLQURMO0FBRUZDLElBQUFBO0FBRkUsTUFHRkwsR0FISjtBQUtBRixFQUFBQSwwREFBQSxDQUFlLFVBQVVLLElBQVYsR0FBaUIsR0FBakIsR0FBdUJDLEVBQXRDLEVBQ0tHLElBREwsQ0FDV0MsUUFBRCxJQUFjO0FBQ2hCQyxJQUFBQSxPQUFPLENBQUNDLEdBQVIsQ0FBWSxVQUFaLEVBQXdCRixRQUF4Qjs7QUFFQSxRQUFJLENBQUNBLFFBQVEsQ0FBQ0csS0FBVixJQUFtQkgsUUFBUSxDQUFDSSxJQUFoQyxFQUFzQztBQUNsQ1gsTUFBQUEsR0FBRyxDQUFDWSxNQUFKLENBQVcsR0FBWCxFQUFnQkMsSUFBaEIsQ0FBcUJOLFFBQVEsQ0FBQ0ksSUFBOUI7QUFDQTtBQUNIOztBQUVEWCxJQUFBQSxHQUFHLENBQUNZLE1BQUosQ0FBVyxHQUFYLEVBQWdCQyxJQUFoQixDQUFxQixPQUFyQjtBQUNBLFdBQU8sS0FBUDtBQUNILEdBWEwsRUFZS0MsS0FaTCxDQVlZSixLQUFELElBQVc7QUFDZEYsSUFBQUEsT0FBTyxDQUFDQyxHQUFSLENBQVksT0FBWixFQUFxQkMsS0FBckI7QUFDQVYsSUFBQUEsR0FBRyxDQUFDWSxNQUFKLENBQVcsR0FBWCxFQUFnQkMsSUFBaEIsQ0FBcUJILEtBQXJCO0FBQ0gsR0FmTDtBQWdCSCIsInNvdXJjZXMiOlsid2VicGFjazovL2Jsb2NrYmxlbmQvLi9wYWdlcy9hcGkvcmF0ZS5qcz82ZDA5Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBBUElfSEVMUEVSIGZyb20gXCIuLi8uLi9saWIvYXBpSGVscGVyXCI7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIGhhbmRsZXIocmVxLCByZXMpIHtcbiAgICBjb25zdCB7XG4gICAgICAgIHF1ZXJ5OiB7IGZyb20sIHRvIH0sXG4gICAgICAgIG1ldGhvZCxcbiAgICB9ID0gcmVxO1xuXG4gICAgQVBJX0hFTFBFUi5nZXQoXCJyYXRlL1wiICsgZnJvbSArIFwiL1wiICsgdG8pXG4gICAgICAgIC50aGVuKChyZXNwb25zZSkgPT4ge1xuICAgICAgICAgICAgY29uc29sZS5sb2coXCJyZXNwb25zZVwiLCByZXNwb25zZSk7XG5cbiAgICAgICAgICAgIGlmICghcmVzcG9uc2UuZXJyb3IgJiYgcmVzcG9uc2UucmF0ZSkge1xuICAgICAgICAgICAgICAgIHJlcy5zdGF0dXMoMjAwKS5qc29uKHJlc3BvbnNlLnJhdGUpO1xuICAgICAgICAgICAgICAgIHJldHVybjtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgcmVzLnN0YXR1cyg0MDYpLmpzb24oXCJlcnJvclwiKTtcbiAgICAgICAgICAgIHJldHVybiBmYWxzZTtcbiAgICAgICAgfSlcbiAgICAgICAgLmNhdGNoKChlcnJvcikgPT4ge1xuICAgICAgICAgICAgY29uc29sZS5sb2coXCJlcnJvclwiLCBlcnJvcik7XG4gICAgICAgICAgICByZXMuc3RhdHVzKDQwNikuanNvbihlcnJvcik7XG4gICAgICAgIH0pO1xufVxuIl0sIm5hbWVzIjpbIkFQSV9IRUxQRVIiLCJoYW5kbGVyIiwicmVxIiwicmVzIiwicXVlcnkiLCJmcm9tIiwidG8iLCJtZXRob2QiLCJnZXQiLCJ0aGVuIiwicmVzcG9uc2UiLCJjb25zb2xlIiwibG9nIiwiZXJyb3IiLCJyYXRlIiwic3RhdHVzIiwianNvbiIsImNhdGNoIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(api)/./pages/api/rate.js\n");
 
 /***/ })
 
@@ -54,7 +50,7 @@ function handler(req, res) {
 var __webpack_require__ = require("../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [176], () => (__webpack_exec__(7458)));
+var __webpack_exports__ = (__webpack_exec__("(api)/./pages/api/rate.js"));
 module.exports = __webpack_exports__;
 
 })();

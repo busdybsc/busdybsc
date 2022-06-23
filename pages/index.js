@@ -1,5 +1,6 @@
 import { isMobile, browserName } from "react-device-detect";
 import ScrollToTop from 'react-scroll-to-top';
+import ReactGA from 'react-ga';
 import {FaAngleDoubleDown, FaAngleUp} from 'react-icons/fa';
 
 //UI Imports
@@ -32,6 +33,10 @@ export default function App() {
     const renderButton = () => {
         return <FaAngleDoubleDown className="icon-position icon-style" onClick={goToContent} />
     }
+
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    }, []);
 
     useEffect(() => {
         let dappBox = document.querySelector('.Dapp_dapp_box__QVPeC');
