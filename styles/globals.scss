@@ -2,11 +2,11 @@
 @import "./_grid.scss";
 
 :root {
-  --primary: #E14D81;
+  --primary: #171f70;
   --primary-light: #E14D81;
   --highlight: #E14D81;
 }
-
+//update to theme color
 @font-face {
   font-family: "Andale";
   src: url("/fonts/andale-mono-webfont.woff2") format("woff2"),
