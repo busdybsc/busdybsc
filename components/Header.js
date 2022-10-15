@@ -79,7 +79,7 @@ const Header = (props) => {
                               </div>
                                 <div className={styles.header__logo_img}>
                                     <div className={styles.header__logo_inner} style={headerStyle}>
-                                        <Image
+                                    <Image
                                             styles={{}}
                                             src="/images/busdy_token_header.png"
                                             alt="$BUSDY"
@@ -91,7 +91,6 @@ const Header = (props) => {
                                 </>
                             </Link>
                         </div>
-
                         <nav className={styles.header__nav}>
                             <ul>
                                 {props.layout == "main" ? (
