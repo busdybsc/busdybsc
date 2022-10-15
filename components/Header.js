@@ -87,7 +87,7 @@ const Header = (props) => {
                                             height={199}
                                         />
                                     </div>
-                                </div>
+                                </div--!>
                                 </>
                             </Link>
                         </div>
