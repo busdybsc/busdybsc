@@ -80,7 +80,7 @@ const Header = (props) => {
                                 <div className={styles.header__logo_img}>
                                     <div className={styles.header__logo_inner} style={headerStyle}>
                                         <Image
-                                           styles={{}}
+                                            styles={{}}
                                             src="/images/busdy_token_header.png"
                                             alt="$BUSDY"
                                             width={370}
