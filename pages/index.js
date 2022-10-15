@@ -78,7 +78,7 @@ export default function App() {
                 <Row style={{borderBottom: '5px solid white'}}>
                 <Col xs="12" sm="4" style={{backgroundColor: "#26262b", padding: "30px", borderRadius: "20px", height: "100%", width: 'auto', margin: 'auto', marginTop: 0, marginBottom: isMobile ? '20px' : 0, borderRight: isMobile ? '10px solid #E14D81' : '', borderLeft: isMobile ? '10px solid #E14D81' : ''}} >
                     <div style={{width: '100%', textAlign: 'center', paddingBottom: '30px'}}>
-                        <Image src="/images/tlogo.png"  width={350} height={150} />
+                        <Image src="/images/TT_silver3blackedge.png"  width={350} height={150} />
                     </div>
                         <div className="tiddy-container">
                             <h3 style={{color: "var(--primary-light)", fontSize: "1.375rem", fontWeight: 900}}>What is the Tiddy Twister?</h3>
