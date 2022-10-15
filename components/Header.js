@@ -76,18 +76,18 @@ const Header = (props) => {
                                             layout="responsive"
                                         />
                                     </div>
-                                </div>
+                              </div>
                                 <div className={styles.header__logo_img}>
-                                    <div className={styles.header__logo_inner} style={headerStyle}>
-                                        <Image
-                                            styles={{}}
-                                            src="/images/busdy_token_header.png"
-                                            alt="$BUSDY"
-                                            width={370}
-                                            height={199}
+                                   # <div className={styles.header__logo_inner} style={headerStyle}>
+                                    #    <Image
+                                     #       styles={{}}
+                                    #        src="/images/busdy_token_header.png"
+                                    #        alt="$BUSDY"
+                                    #        width={370}
+                                     #       height={199}
 
-                                        />
-                                    </div>
+                                   #     />
+                                  #  </div>
                                 </div>
                                 </>
                             </Link>
