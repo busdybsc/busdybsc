@@ -77,7 +77,7 @@ const Header = (props) => {
                                         />
                                     </div>
                               </div>
-                                <!--div className={styles.header__logo_img}>
+                                <div className={styles.header__logo_img}>
                                     <div className={styles.header__logo_inner} style={headerStyle}>
                                     <Image
                                             styles={{}}
@@ -87,7 +87,7 @@ const Header = (props) => {
                                             height={199}
                                         />
                                     </div>
-                                </div--!>
+                                </div>
                                 </>
                             </Link>
                         </div>
