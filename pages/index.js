@@ -192,7 +192,7 @@ What you choose to do with your crypto should remain YOUR business and most impo
                     {isMobile && (
                     <Image
                         styles={{ marginRight: "0"}}
-                       // src="/images/animegirl.png"
+                        src="/images/animegirl.png"
                         alt="$BUSDY"
                         width={433.1}
                         height={770}
