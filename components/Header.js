@@ -69,7 +69,7 @@ const Header = (props) => {
                                     <div className={styles.header__logo_inner}>
                                         <Image
                                             styles={{}}
-                                            src="/images/bsdy_master_logo.png"
+                                            src="/images/TT Logo Main_silver.png"
                                             alt="$BUSDY"
                                             width={60}
                                             height={60}
