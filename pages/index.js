@@ -199,7 +199,7 @@ What you choose to do with your crypto should remain YOUR business and most impo
                         // width={}
                         // height={130}
                    // />
-                    )}
+                   // )}
                 </Row>
             </Container>
         </>
