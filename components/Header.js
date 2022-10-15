@@ -62,7 +62,7 @@ const Header = (props) => {
             >
                 <Container>
                     <div className={styles.header__row}>
-                        <div className={styles.header__logo} onClick={() => window.location = 'https://busdytokenbsc.com'}>
+                        <div className={styles.header__logo} onClick={() => window.location = 'https://www.tiddytwister.com'}>
                             <Link href="https://busdytokenbsc.com">
                                 <>
                                 <div className={styles.header__logo_img} style={{ width: !isMobile ? '85px' : 'auto', height: '85px'}}>
@@ -132,12 +132,12 @@ const Header = (props) => {
                                 ) : (
                                     <>
                                         <li>
-                                            <a href="https://busdytokenbsc.com/" rel="noreferrer">
+                                            <a href="https://www.tiddytwister.com" rel="noreferrer">
                                                 Website
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://busdybsc.gitbook.io/busdywp/" rel="noreferrer">
+                                            <a href="https://tiddy-twister-token.gitbook.io/tiddy-twister-whitepaper/the-tiddy-twister" rel="noreferrer">
                                                 Whitepaper
                                             </a>
                                         </li>
