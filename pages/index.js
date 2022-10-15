@@ -188,17 +188,17 @@ What you choose to do with your crypto should remain YOUR business and most impo
                        </p>
                             
                         </div>
-                    </Col>
-                    {isMobile && (
-                    <Image
-                        styles={{ marginRight: "0"}}
-                        src="/images/animegirl.png"
-                        alt="$BUSDY"
-                        width={433.1}
-                        height={770}
+                   // </Col>
+                   // {isMobile && (
+                   // <Image
+                       // styles={{ marginRight: "0"}}
+                       // src="/images/animegirl.png"
+                       // alt="$BUSDY"
+                       // width={433.1}
+                       // height={770}
                         // width={}
                         // height={130}
-                    />
+                   // />
                     )}
                 </Row>
             </Container>
