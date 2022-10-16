@@ -142,9 +142,9 @@ transaction details, token origin and your destination wallet, using built
                     4. Send the desired amount to the address provided within the displayed time limit (be sure to verify the recipient address).<br />
                     5. Be sure to send the correct currency (as chosen in step one) to the generated address provided. <br />
                     6. Review the details and retain the recovery key for your records.<br />
-                            <br /></p>
+                            </p>
                     <p style={{fontSize: "1rem"}}><span style={{color: 'red', fontSize: "1rem"}}>IMPORTANT:</span> Pay close attention to the Min / Max values for the specified token, any amount of tokens sent outside of these ranges will fail and are NOT RECOVERABLE!
-                            <br /><br />
+                            <br />
                             <p style={{fontSize: "1rem"}}><span style={{color: 'red', fontSize: "1rem"}}>NOTE:</span> The estimated delivery time will vary based on network usage an on-chain conditions.  
 
                         </p></p>
