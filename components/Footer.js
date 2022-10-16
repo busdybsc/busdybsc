@@ -27,7 +27,7 @@ const Footer = () => {
                 <span><span style={{fontSize: "0.8rem"}}>Powered by</span><a href="https://blockblend.io/">Blockblend </a></span>
               </div>
             </Col>
-            <Col xs="12" md="6" customClass={styles.footer__right} font color="c2c2c2">
+            <Col xs="12" md="6" customClass={styles.footer__right}>
               <ul className={styles.footer__links}>
                 <li>
                   <a rel="noreferrer" href="https://t.me/TiddyTwister" target="_blank">Telegram</a>
