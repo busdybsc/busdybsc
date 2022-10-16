@@ -97,8 +97,8 @@ the "TIDDY TWISTER" powered by the security of <a href="https://blockblend.io">B
                             <strong>The Secret Sauce?</strong>  The TIDDY TWISTER will hide your crypto currency 
 transaction details, token origin and your destination wallet, using built
  in cross-chain functionality.   
-</p><p>
-<strong style={{color: "var(--primary-light)", textAlign: "center"}}>Your Crypto.  Your Business.</strong>
+</p><p align="right">
+<strong style={{color: "var(--primary-light)"}}>Your Crypto.  Your Business.</strong>
                             </p>
                         </div>
                     </Col>
