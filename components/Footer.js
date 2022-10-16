@@ -64,7 +64,7 @@ const Footer = () => {
                 </p>
               <p style={{fontSize:'12px'}}>
                 BlockBlend is a developmental platform. Please use at your own risk.<br />
-                Blockblend.io &copy; 2022 • All rights reserved.
+                Blockblend.io &copy; 2022 • All Rights Reserved
               </p>
 
               </div>
