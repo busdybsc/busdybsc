@@ -126,7 +126,8 @@ transaction details, token origin and your destination wallet, using built
                     <Col xs="12" sm="4">
                         <div>
                             <h3>DEPOSIT (Wallet Connected)</h3>
-                            <p = "font-size:16px">1. Connect wallet at top right of page.<br />
+                            <p style={{fontSize: "1rem"}}>
+                                1. Connect wallet at top right of page.<br />
                                 2. From the pulldown menu, select the chain(s) you are bridging from and to (ensure your wallet is connected to the network you are bridging from). You can even send tokens to a wallet on the same chain, for example: $ETH to $ETH or $BNB to $BNB, etc...<br />
                                 3. Enter the recipient wallet address.<br />
                                 4. Choose a fixed amount of tokens to send and click “next.”<br />
@@ -135,7 +136,7 @@ transaction details, token origin and your destination wallet, using built
                             </p>
                             <br /><br />
                             <h3>CUSTOM DEPOSIT (Wallet NOT Connected)</h3>
-                            <p style = "font-size:16px">
+                            <p style={{fontSize: "1rem"}}>
                     1. From the pulldown menu, select the chains you are bridging from and to.<br />
                     2. Enter the recipient wallet address (depending on your use case, this may be the same address you are sending from).<br />
                     3. Ensure “custom” is selected and click “next.”<br />
