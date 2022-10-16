@@ -44,9 +44,6 @@ const Footer = () => {
                 <li>
                   <a rel="noreferrer" href="https://discord.gg/9kWZtmxFmA" target="_blank">Discord</a>
                 </li>
-                </* <li>
-                  <a rel="noreferrer" href="https://www.facebook.com/profile.php?id=100081971763457" target="_blank">Facebook</a>
-                </li> */}
                 <li>
                   <a rel="noreferrer" href="https://www.youtube.com/channel/UCEiDPPv0SjF9HyvBz82nCOQ" target="_blank">YouTube Tutorial</a>
                 </li>
