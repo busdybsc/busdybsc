@@ -144,9 +144,9 @@ transaction details, token origin and your destination wallet, using built
                     5. Be sure to send the correct currency (as chosen in step one) to the generated address provided. <br />
                     6. Review the details and retain the recovery key for your records.<br />
                             <br /></p>
-                    <p><span style={{color: 'red'}}>IMPORTANT:</span> Pay close attention to the Min / Max values for the specified token, any amount of tokens sent outside of these ranges will fail and are NOT RECOVERABLE!
+                    <p><span style={{color: 'red', fontSize: "1rem"}}>IMPORTANT:</span> Pay close attention to the Min / Max values for the specified token, any amount of tokens sent outside of these ranges will fail and are NOT RECOVERABLE!
                             <br /><br />
-                            <p><span style={{color: 'red'}}>NOTE:</span> The estimated delivery time will vary based on network usage an on-chain conditions.  
+                            <p><span style={{color: 'red', fontSize: "1rem"}}>NOTE:</span> The estimated delivery time will vary based on network usage an on-chain conditions.  
 
                         </p></p>
                         </div>
@@ -154,7 +154,7 @@ transaction details, token origin and your destination wallet, using built
                     <Col xs="12" sm="4">
                         <div>
                         <h3>ADVANCED SETTINGS</h3>
-                            <p>
+                            <p style={{fontSize: "1rem"}}>
                             ADVANCED MODE opens a subset of features recommended for power users only. <br /><br /> These include custom time delay settings and the option to include a unique user secret phrase which will ensure singular use of dynamic addresses, ensuring your own crypto coins are never sent back to you in the future.
                                 <br />
                                 <br />
@@ -165,7 +165,7 @@ transaction details, token origin and your destination wallet, using built
 
                             </p>
 <h3>DELIVERY</h3>
-<p>
+<p style={{fontSize: "1rem"}}>
 Your assets will arrive in the recipient wallet as the native tokens, NOT as wrapped tokens.<br />
 <br />
 For example, if you sent $ETH and the recipient network is Cronos, you will receive native $CRO tokens.
@@ -175,9 +175,9 @@ For example, if you sent $ETH and the recipient network is Cronos, you will rece
                     <Col xs="12" sm="4">
                         <div>
                             <h3>NEXT-LEVEL PRIVACY</h3>
-<p>The bridge has multiple use cases, sending isn't the twister's only trick.<br /><br/> For example, if a content creator wanted to receive anonymous crypto payments without exposing a private wallet address, they can generate a dynamic address within the app using an hour-long delay and accept tips or payments from hundreds of people during a live stream or podcast. <br /><br />Likewise, you can make payments while concealing your private address from the recipient.<br /></p>
+<p style={{fontSize: "1rem"}}>The bridge has multiple use cases, sending isn't the twister's only trick.<br /><br/> For example, if a content creator wanted to receive anonymous crypto payments without exposing a private wallet address, they can generate a dynamic address within the app using an hour-long delay and accept tips or payments from hundreds of people during a live stream or podcast. <br /><br />Likewise, you can make payments while concealing your private address from the recipient.<br /></p>
 
-                            <p>
+                            <p style={{fontSize: "1rem"}}>
                             With the present climate and impending government regulations coming to the crypto space, we firmly believe anonymity is of the UTMOST importance and want to keep crypto the way Satoshi intended Bitcoin to be -- <strong>PRIVATE</strong> and <strong>ANONYMOUS.</strong> <br/><br />
 
 When on-ramping fiat (real-world currency) into crypto, you are essentially linking your real-world persona to a digital wallet. KYC almost defeats the original purpose of crypto. <br /><br />Using TIDDY TWISTER technology you can detach your crypto activity from your real-world self forever and onwards. <br/><br />
