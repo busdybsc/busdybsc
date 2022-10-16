@@ -76,12 +76,12 @@ export default function App() {
                 )}
             <Container>
                 <Row style={{borderBottom: '5px solid white'}}>
-                <Col xs="12" sm="4" style={{backgroundColor: "#26262b", padding: "30px", borderRadius: "20px", height: "100%", width: 'auto', margin: 'auto', marginTop: 0, marginBottom: isMobile ? '20px' : 0, borderRight: isMobile ? '10px solid #E14D81' : '', borderLeft: isMobile ? '10px solid #E14D81' : ''}} >
+                <Col xs="12" sm="4" style={{backgroundColor: "#26262b", padding: "30px", borderRadius: "20px", fontSize: "1.125rem", height: "100%", width: 'auto', margin: 'auto', marginTop: 0, marginBottom: isMobile ? '20px' : 0, borderRight: isMobile ? '10px solid #E14D81' : '', borderLeft: isMobile ? '10px solid #E14D81' : ''}} >
                     <div style={{width: '100%', textAlign: 'center', paddingBottom: '30px'}}>
                         <Image src="/images/TT text no spinner.png"  width={380} height={200} />
                     </div>
                         <div className="tiddy-container">
-                            <h3 style={{color: "var(--primary-light)", fontSize: "0.875rem", fontWeight: 900}}>What is the Tiddy Twister?</h3>
+                            <h3 style={{color: "var(--primary-light)", fontSize: "1.375rem", fontWeight: 900}}>What is the Tiddy Twister?</h3>
                             <p>
                             Welcome to <a href="https://busdytokenbsc.com">BUSDY TOKEN'S</a> anonymous<strong> Cross-Chain Bridge</strong>, 
 the "TIDDY TWISTER" powered by the security of <a href="https://blockblend.io">BLOCKBLEND</a> technology.
