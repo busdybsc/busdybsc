@@ -16,7 +16,7 @@ const Header = (props) => {
     const [connectedAddress, setConnectedAddress] = useState(undefined);
     const [selectedNetwork, setSelectedNetwork] = useState(undefined);
     const [ headerStyle, setHeaderStyle ] = useState({height: '100%', margin: 0});
-    const [ logoStyle, setLogoStyle ] = useState({height: '85px', width: '85px'});
+    const [ logoStyle, setLogoStyle ] = useState({height: '90px', width: '90px'});
 
     const mobileNavHandler = () => {
         setMobileNav(!mobileNav);
@@ -65,7 +65,7 @@ const Header = (props) => {
                         <div className={styles.header__logo} onClick={() => window.location = 'https://www.tiddytwister.com'}>
                             <Link href="https://www.tiddytwister.com">
                                 <>
-                                <div className={styles.header__logo_img} style={{ width: !isMobile ? '85px' : 'auto', height: '85px'}}>
+                                <div className={styles.header__logo_img} style={{ width: !isMobile ? '90px' : 'auto', height: '90px'}}>
                                     <div className={styles.header__logo_inner}>
                                         <Image
                                             styles={{}}
