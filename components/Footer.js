@@ -19,12 +19,12 @@ const Footer = () => {
                     styles={{ marginRight: "3rem" }}
                     src="/images/TT Logo Main_silver.png"
                     alt="Blockblend"
-                    width={170}
+                    width={110}
                     height={110}
                     layout="fixed"
                   />
                 </a>
-                <span><span style={{fontSize: "0.9rem"}}>Powered by</span><a href="https://blockblend.io/">Blockblend </a></span>
+                <span><span style={{fontSize: "0.8rem"}}>Powered by</span><a href="https://blockblend.io/">Blockblend </a></span>
               </div>
             </Col>
             <Col xs="12" md="6" customClass={styles.footer__right}>
