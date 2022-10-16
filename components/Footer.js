@@ -44,11 +44,11 @@ const Footer = () => {
                 <li>
                   <a rel="noreferrer" href="https://discord.gg/9kWZtmxFmA" target="_blank">Discord</a>
                 </li>
-                <li>
+                </* li>
                   <a rel="noreferrer" href="https://www.facebook.com/profile.php?id=100081971763457" target="_blank">Facebook</a>
-                </li>
+                </li */>
                 <li>
-                  <a rel="noreferrer" href="https://www.youtube.com/channel/UCEiDPPv0SjF9HyvBz82nCOQ" target="_blank">YouTube</a>
+                  <a rel="noreferrer" href="https://www.youtube.com/channel/UCEiDPPv0SjF9HyvBz82nCOQ" target="_blank">YouTube Tutorial</a>
                 </li>
                 {/* <li>
                   <a rel="noreferrer" href="https://bscscan.com/address/0x5bebfab847dd89b1d03ca654685bac07aa01224e" target="_blank">Contract (BSC)</a>
