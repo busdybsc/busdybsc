@@ -14,7 +14,7 @@ const Footer = () => {
             <Col xs="12" md="6">
               <div className={styles.footer__logo}>
               {/* Busdy Token's&nbsp; */}
-                <a href="https://busdytokenbsc.com">
+                <a href="https://www.tiddytwister.com/">
                   <Image
                     styles={{ marginRight: "3rem" }}
                     src="/images/TT Logo Main_silver.png"
