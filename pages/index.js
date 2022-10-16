@@ -83,8 +83,7 @@ export default function App() {
                         <div className="tiddy-container">
                            <h3 style={{color: "var(--primary-light)", fontSize: "1.375rem", fontWeight: 900}}><br /><br />What is the Tiddy Twister?</h3>
                             <p>
-                            Welcome to <a href="https://busdytokenbsc.com">BUSDY TOKEN'S</a> anonymous<strong> Cross-Chain Bridge</strong>, 
-the "TIDDY TWISTER" powered by the security of <a href="https://blockblend.io">BLOCKBLEND</a> technology.
+                            Welcome to TIDDY TWISTER </a> anonymous<strong> Cross-Chain Bridge</strong>, powered by the security of <a href="https://blockblend.io">Blockblend</a> technology.
                             </p>
                             <p>
                             <strong>Discreetly</strong> transfer native tokens across multiple blockchains 
