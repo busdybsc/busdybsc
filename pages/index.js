@@ -108,7 +108,7 @@ transaction details, token origin and your destination wallet, using built
                     ></MixerInterface>
                     {!isMobile && (
                     <Image
-                        src="/images/animegirl.png"
+                        src="/images/test girl_busdy.png"
                         alt="$BUSDY"
                         width={433.1}
                         height={770}
