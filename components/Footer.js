@@ -54,10 +54,6 @@ const Footer = () => {
                   <a rel="noreferrer" href="https://audits.solidgrp.io/blockblend/summary" target="_blank">Audit</a>
                 </li>
               </ul>
-              <p>
-                Blockblend.io &copy; 2022 • All rights reserved.<br />
-                BlockBlend is a developmental platform. Please use at your own risk.
-              </p>
             </Col>
           </Row>
           <Row>
@@ -66,6 +62,10 @@ const Footer = () => {
                 <p style={{fontSize:'12px'}}>
                 Please note there are always risks associated with smart-contracts. Please use at your own risk. tiddytwister.com and busdytokenbsc.com are not registered brokers, analysts, or investment advisors. Nor are they offering any legal advice. Everything provided on this site is purely for informational, educational or entertainment purposes. All information contained herein should be independently verified and confirmed. We do not accept any liability for any loss or damage whatsoever caused in reliance upon such information or services. Please be aware of the risks involved with any trading done in any financial market. Do not trade with money you cannot afford to lose. Owners accept no liability for use of this application.
                 </p>
+              <p>
+                BlockBlend is a developmental platform. Please use at your own risk.
+                Blockblend.io &copy; 2022 • All rights reserved.<br />
+              </p>
 
               </div>
 
