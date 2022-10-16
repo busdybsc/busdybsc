@@ -71,8 +71,8 @@ const Header = (props) => {
                                             styles={{}}
                                             src="/images/TT Logo Main_silver.png"
                                             alt="$BUSDY"
-                                            width={60}
-                                            height={60}
+                                            width={65}
+                                            height={65}
                                             layout="responsive"
                                         />
                                     </div>
@@ -83,8 +83,8 @@ const Header = (props) => {
                                              styles={{}}
                                              src="/images/TT text only blue.png"
                                              alt="$BUSDY"
-                                             width={370}
-                                             height={199}
+                                             width={350}
+                                             height={179}
                                          />
                                      </div>
                                  </div>
