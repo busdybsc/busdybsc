@@ -81,6 +81,7 @@ export default function App() {
                         <Image src="/images/TT text no spinner.png"  width={380} height={200} />
                     </div>
                         <div className="tiddy-container">
+                            <br /></>
                             <h3 style={{color: "var(--primary-light)", fontSize: "1.375rem", fontWeight: 900}}>What is the Tiddy Twister?</h3>
                             <p>
                             Welcome to <a href="https://busdytokenbsc.com">BUSDY TOKEN'S</a> anonymous<strong> Cross-Chain Bridge</strong>, 
