@@ -81,7 +81,7 @@ export default function App() {
                         <Image src="/images/TT text no spinner.png"  width={380} height={200} />
                        </div>
                         <div className="tiddy-container">
-                           <h3 style={{color: "var(--primary-light)", fontSize: "1.375rem", fontWeight: 900}}>What is the Tiddy Twister?</h3>
+                           <h3 style={{color: "var(--primary-light)", fontSize: "1.375rem", fontWeight: 900}}><br /><br />What is the Tiddy Twister?</h3>
                             <p>
                             Welcome to <a href="https://busdytokenbsc.com">BUSDY TOKEN'S</a> anonymous<strong> Cross-Chain Bridge</strong>, 
 the "TIDDY TWISTER" powered by the security of <a href="https://blockblend.io">BLOCKBLEND</a> technology.
@@ -108,7 +108,7 @@ transaction details, token origin and your destination wallet, using built
                     ></MixerInterface>
                     {!isMobile && (
                     <Image
-                        src="/images/test girl_busdy.png"
+                        src="/images/animegirl.png"
                         alt="$BUSDY"
                         width={433.1}
                         height={770}
@@ -191,7 +191,7 @@ What you choose to do with your crypto should remain YOUR business and most impo
                     {isMobile && (
                     <Image
                         styles={{ marginRight: "0"}}
-                        src="/images/test girl_busdy.png"
+                        src="/images/animegirl.png"
                         alt="$BUSDY"
                         width={433.1}
                         height={770}
