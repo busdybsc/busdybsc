@@ -63,7 +63,7 @@ const Header = (props) => {
                 <Container>
                     <div className={styles.header__row}>
                         <div className={styles.header__logo} onClick={() => window.location = 'https://www.tiddytwister.com'}>
-                            <Link href="https://busdytokenbsc.com">
+                            <Link href="https://www.tiddytwister.com">
                                 <>
                                 <div className={styles.header__logo_img} style={{ width: !isMobile ? '85px' : 'auto', height: '85px'}}>
                                     <div className={styles.header__logo_inner}>
