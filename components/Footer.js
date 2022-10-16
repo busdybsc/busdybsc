@@ -19,8 +19,8 @@ const Footer = () => {
                     styles={{ marginRight: "3rem" }}
                     src="/images/TT Logo Main_silver.png"
                     alt="Blockblend"
-                    width={200}
-                    height={130}
+                    width={170}
+                    height={110}
                     layout="fixed"
                   />
                 </a>
