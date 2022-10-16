@@ -98,7 +98,7 @@ the "TIDDY TWISTER" powered by the security of <a href="https://blockblend.io">B
 transaction details, token origin and your destination wallet, using built
  in cross-chain functionality.   
 </p><p>
-<strong style={{color: "var(--primary-light)"}}>  <div style={{textAlign: 'center'}}>Your Crypto.  Your Business.</strong>
+<strong style={{color: "var(--primary-light)", textAlign: "center"}}>Your Crypto.  Your Business.</strong>
                             </p>
                         </div>
                     </Col>
