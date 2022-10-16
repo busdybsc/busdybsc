@@ -17,10 +17,10 @@ const Footer = () => {
                 <a href="https://busdytokenbsc.com">
                   <Image
                     styles={{ marginRight: "3rem" }}
-                    src="/images/TT_silver3blackedge.png"
+                    src="/images/TT Logo Main_silver.png"
                     alt="Blockblend"
-                    width={180}
-                    height={110}
+                    width={200}
+                    height={130}
                     layout="fixed"
                   />
                 </a>
