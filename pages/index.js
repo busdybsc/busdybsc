@@ -145,7 +145,7 @@ transaction details, token origin and your destination wallet, using built
                             </p>
                     <p style={{fontSize: "1rem"}}><span style={{color: 'red', fontSize: "1rem"}}>IMPORTANT:</span> Pay close attention to the Min / Max values for the specified token, any amount of tokens sent outside of these ranges will fail and are NOT RECOVERABLE!
                             <br />
-                            ></p>
+                            </p>
                         </div>
                     </Col>
                     <Col xs="12" sm="4">
