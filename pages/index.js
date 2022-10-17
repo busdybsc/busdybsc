@@ -83,18 +83,18 @@ export default function App() {
                         <div className="tiddy-container">
                            <h3 style={{color: "var(--primary-light)", fontSize: "1.375rem", fontWeight: 900}}><br /><br />What is the Tiddy Twister?</h3>
                             <p>
-                            Welcome to the TIDDY TWISTER anonymous <strong> Cross-Chain Bridge</strong>, powered by the security of Blockblend technology.
+                            Welcome to the TIDDY TWISTER anonymous cross-chain bridge, powered by the security of Blockblend technology.
                             </p>
                             <p>
                             <strong>Discreetly</strong> transfer native tokens across multiple blockchains 
 (wallet connection optional).  
                             </p>
                             <p>
-                            The easiest, private, anonymous bridge available in defi.
+                            The easiest, private, anonymous bridge available in DeFi.
                             </p>
                             <p>
-                            <strong>The Secret Sauce?</strong>  The TIDDY TWISTER will hide your crypto currency 
-transaction details, token origin and your destination wallet, using built
+                            <strong>The Secret Sauce?</strong>  The TIDDY TWISTER will privatize your cryptocurrency 
+transaction details, token origin, and your destination wallet using built
  in cross-chain functionality.   
 </p>
                         </div>
