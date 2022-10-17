@@ -42,7 +42,7 @@ const Footer = () => {
                   <a href="https://medium.com/@tiddytwistertoken/" target="_blank" rel="noreferrer">Medium</a>
                 </li>
                 <li>
-                  <a rel="noreferrer" href="https://discord.gg/9kWZtmxFmA" target="_blank">Discord</a>
+                  <a rel="noreferrer" href="https://discord.gg/kp7f3n9Fbr" target="_blank">Discord</a>
                 </li>
                 <li>
                   <a rel="noreferrer" href="https://www.youtube.com/watch?v=5Fbfhgx31Pw&t=57s&ab_channel=BusdyToken" target="_blank">YouTube Tutorial</a>
