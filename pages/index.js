@@ -83,11 +83,11 @@ export default function App() {
                         <div className="tiddy-container">
                            <h3 style={{color: "var(--primary-light)", fontSize: "1.375rem", fontWeight: 900}}><br /><br />What is the Tiddy Twister?</h3>
                             <p>
-                            Welcome to the TIDDY TWISTER anonymous cross-chain bridge, powered by the security of Blockblend technology.
+                            Welcome to the TIDDY TWISTER anonymous cross-chain bridge, powered by the security of Blockblend technology. <strong>Discreetly</strong> transfer native tokens across multiple blockchains 
+(wallet connection optional). 
                             </p>
                             <p>
-                            <strong>Discreetly</strong> transfer native tokens across multiple blockchains 
-(wallet connection optional).  
+                             Tiddy Twister is an anonymous cross-chain bridge that is currently supporting transactions on ETH, BNB, AVAX, CRO, Fantom, and Polygon (MATIC).
                             </p>
                             <p>
                             The easiest, private, anonymous bridge available in DeFi.
