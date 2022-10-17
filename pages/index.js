@@ -145,9 +145,7 @@ transaction details, token origin and your destination wallet, using built
                             </p>
                     <p style={{fontSize: "1rem"}}><span style={{color: 'red', fontSize: "1rem"}}>IMPORTANT:</span> Pay close attention to the Min / Max values for the specified token, any amount of tokens sent outside of these ranges will fail and are NOT RECOVERABLE!
                             <br />
-                            <p style={{fontSize: "1rem"}}><span style={{color: 'red', fontSize: "1rem"}}>NOTE:</span> The estimated delivery time will vary based on network usage an on-chain conditions.  
-
-                        </p></p>
+                            ></p>
                         </div>
                     </Col>
                     <Col xs="12" sm="4">
@@ -169,6 +167,9 @@ Your assets will arrive in the recipient wallet as the native tokens, NOT as wra
 <br />
 For example, if you sent $ETH and the recipient network is Cronos, you will receive native $CRO tokens.
 <br /><br />
+    <p style={{fontSize: "1rem"}}><span style={{color: 'red', fontSize: "1rem"}}>NOTE:</span> The estimated delivery time will vary based on network usage an on-chain conditions.  
+
+                        </p
 </p>       </div>
                     </Col>
                     <Col xs="12" sm="4">
