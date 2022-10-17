@@ -93,7 +93,7 @@ export default function App() {
                             The easiest, private, anonymous bridge available in DeFi.
                             </p>
                             <p>
-                            <strong>The Secret Sauce?</strong>  The TIDDY TWISTER will privatize your cryptocurrency 
+                            The TIDDY TWISTER will privatize your cryptocurrency 
 transaction details, token origin, and your destination wallet using built
  in cross-chain functionality.   
 </p>
