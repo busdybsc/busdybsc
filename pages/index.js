@@ -177,11 +177,11 @@ For example, if you sent $ETH and the recipient network is Cronos, you will rece
 <p style={{fontSize: "1rem"}}>The bridge has multiple use cases, sending isn't the twister's only trick.<br /><br/> For example, if a content creator wanted to receive anonymous crypto payments without exposing a private wallet address, they can generate a dynamic address within the app using an hour-long delay and accept tips or payments from hundreds of people during a live stream or podcast. <br /><br />Likewise, you can make payments while concealing your private address from the recipient.<br /></p>
 
                             <p style={{fontSize: "1rem"}}>
-                            With the present climate and impending government regulations coming to the crypto space, we firmly believe anonymity is of the UTMOST importance and want to keep crypto the way Satoshi intended Bitcoin to be -- <strong>PRIVATE</strong> and <strong>ANONYMOUS.</strong> <br/><br />
+                            With the present climate and impending government regulations coming to the crypto space, we firmly believe anonymity is of the UTMOST importance and want to keep crypto the way Satoshi intended Bitcoin to be -- PRIVATE and ANONYMOUS. <br/><br />
 
 When on-ramping fiat (real-world currency) into crypto, you are essentially linking your real-world persona to a digital wallet. KYC almost defeats the original purpose of crypto. <br /><br />Using TIDDY TWISTER technology you can detach your crypto activity from your real-world self forever and onwards. <br/><br />
 
-What you choose to do with your crypto should remain YOUR business and most importantly... kept PRIVATE. <br /><br />
+What you choose to do with your crypto should remain YOUR BUSINESS and most importantly... kept PRIVATE. <br /><br />
 
                        </p>
                             
