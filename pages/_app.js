@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://$BUSDY.app/" />
         <meta property="og:description" content="Aynonymous cross-chain transactions. Anonymous CRO, Polygon, Matic, ETH, BNB, CRO, Fantom bridge. - $BUSDY" />
-        <meta property="og:image" content="/images/social.jpg" />
+        <meta property="og:image" content="/images/TT seo circle logo.png" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://$BUSDY.app/" />
         <meta property="twitter:description" content="Aynonymous cross-chain transactions. Anonymous CRO, Polygon, Matic, ETH, BNB, CRO, Fantom bridge. - $BUSDY" />
