@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Tiddy Twister is an anonymous cross-chain bridge</title>
+        <title>Tiddy Twister is an anonymous cross-chain bridge...</title>
         <meta property="og:title" content="$BUSDY" key="og_title" />
         <meta name="twitter:title" content="$BUSDY" key="twitter_title" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
