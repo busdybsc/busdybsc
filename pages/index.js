@@ -87,7 +87,7 @@ export default function App() {
 (wallet connection optional). 
                             </p>
                             <p>
-                             Tiddy Twister is an anonymous cross-chain bridge that is currently supporting transactions on ETH, BNB, AVAX, CRO, Fantom, and Polygon (MATIC).
+                             Tiddy Twister is an anonymous cross-chain bridge that is currently supporting transactions on ETH, BNB, AVAX, CRO, Fantom, and Polygon.
                             </p>
                             <p>
                             The TIDDY TWISTER will privatize your cryptocurrency 
