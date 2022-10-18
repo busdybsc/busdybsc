@@ -92,7 +92,7 @@ export default function App() {
                             <p>
                             The TIDDY TWISTER will privatize your cryptocurrency 
 transaction details, token origin, and your destination wallet using built
- in cross-chain functionality.  The easiest, private, anonymous bridge available in DeFi.
+ in cross-chain functionality.  The easiest anonymous cross-chain bridge in DeFi.
 </p>
                         </div>
                     </Col>
