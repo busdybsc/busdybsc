@@ -109,7 +109,7 @@ transaction details, token origin, and your destination wallet using built
                         width={493.1}
                         height={770}
                         padding={30}
-                        borderRadius={20}
+                        border-radius:"20px"
                         // width={}
                         // height={130}
                     /> 
