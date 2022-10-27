@@ -103,8 +103,7 @@ transaction details, token origin, and your destination wallet using built
                         onConnect={onConnect}
                     ></MixerInterface>
                     {!isMobile && (
-                    <div style={{width: '100%', textAlign: 'center', padding: "30px", borderRadius: "20px"}}>
-                        <Image
+                       <Image
                         src="/images/TT arrow graphix.png"
                         alt="$BUSDY"
                         width={493.1}
