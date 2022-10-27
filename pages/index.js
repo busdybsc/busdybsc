@@ -104,7 +104,7 @@ transaction details, token origin, and your destination wallet using built
                     ></MixerInterface>
                     {!isMobile && (
                     <Image
-                        styles={{backgroundColor: "#26262b", padding: "30px", borderRadius: "20px", fontSize: "1rem", height: "100%", width: 'auto', margin: 'auto', marginTop: 0, marginBottom: isMobile ? '20px' : 0, borderRight: isMobile ? '10px solid #E14D81' : '', borderLeft: isMobile ? '10px solid #E14D81' : ''}}
+                        styles={{backgroundColor: "#26262b", padding: "30px", paddingBottom: '30px', borderRadius: "20px", fontSize: "1rem", height: "100%", width: 'auto', margin: 'auto', marginTop: 0, marginBottom: isMobile ? '20px' : 0, borderRight: isMobile ? '10px solid #E14D81' : '', borderLeft: isMobile ? '10px solid #E14D81' : ''}}
                         src="/images/TT arrow graphix.png"
                         alt="$BUSDY"
                         width={493.1}
