@@ -104,7 +104,7 @@ transaction details, token origin, and your destination wallet using built
                     ></MixerInterface>
                     {!isMobile && (
                     <Image
-                        src="/images/animegirl.png"
+                        src="/images/TT arrow graphix.png"
                         alt="$BUSDY"
                         width={433.1}
                         height={770}
@@ -187,7 +187,7 @@ What you choose to do with your crypto should remain YOUR BUSINESS and most impo
                     {isMobile && (
                     <Image
                         styles={{ marginRight: "0"}}
-                        src="/images/animegirl.png"
+                        src="/images/TT arrow graphix.png"
                         alt="$BUSDY"
                         width={433.1}
                         height={770}
