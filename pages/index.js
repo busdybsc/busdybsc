@@ -103,17 +103,10 @@ transaction details, token origin, and your destination wallet using built
                         onConnect={onConnect}
                     ></MixerInterface>
                     {!isMobile && (
-                       <Image style={{backgroundColor: "#26262b", padding: "30px", borderRadius: "20px"}}
-                        src="/images/TT arrow graphix.png"
-                        alt="$BUSDY"
-                        width={493.1}
-                        height={770}
-                        padding={30}
-                        borderRadius={20}
-                        // width={}
-                        // height={130}
-                    />
-                     )}
+                        <div style={{width: '100%', textAlign: 'center', paddingBottom: '30px'}}>
+                        <Image src="/images/TT arrow graphix"  width={380} height={200} />
+                       </div>
+                                           )}
                 </Row>
                 <Row customClass={styles.dapp__blocks}>
                     <Col xs="12" style={{paddingBottom: 0}}>
