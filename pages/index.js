@@ -106,7 +106,7 @@ transaction details, token origin, and your destination wallet using built
                     <Image
                         src="/images/TT arrow graphix.png"
                         alt="$BUSDY"
-                        width={453.1}
+                        width={473.1}
                         height={770}
                         // width={}
                         // height={130}
