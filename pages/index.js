@@ -113,8 +113,7 @@ transaction details, token origin, and your destination wallet using built
                         // width={}
                         // height={130}
                     /> 
-                       </div>
-                                           )}
+                       )}
                 </Row>
                 <Row customClass={styles.dapp__blocks}>
                     <Col xs="12" style={{paddingBottom: 0}}>
