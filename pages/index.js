@@ -108,8 +108,7 @@ transaction details, token origin, and your destination wallet using built
                         alt="$BUSDY"
                         width={493.1}
                         height={770}
-                        padding={30}
-                         // width={}
+                        // width={}
                         // height={130}
                     /> 
                        )}
