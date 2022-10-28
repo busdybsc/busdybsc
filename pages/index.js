@@ -104,7 +104,7 @@ transaction details, token origin, and your destination wallet using built
                     ></MixerInterface>
 <Col xs="12" sm="4" style={{backgroundColor: "#26262b", padding: "30px", borderRadius: "20px", fontSize: "1rem", height: "100%", width: 'auto', margin: 'auto', marginTop: 0, marginBottom: isMobile ? '20px' : 0, borderRight: isMobile ? '10px solid #E14D81' : '', borderLeft: isMobile ? '10px solid #E14D81' : ''}} >
                     <div style={{width: '100%', textAlign: 'center', paddingBottom: '30px'}}>
-                        <Image src="/images/TT arrow graphix.png"  width={380} height={600} />
+                        <Image src="/images/TT arrow graphix.png"  width={380} height={550} />
                        </div>
                       </Col>
                    </Row>
