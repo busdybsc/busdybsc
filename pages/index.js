@@ -106,10 +106,7 @@ transaction details, token origin, and your destination wallet using built
                     <div style={{width: '100%', textAlign: 'center', paddingBottom: '30px'}}>
                         <Image src="/images/TT arrow graphix.png"  width={380} height={200} />
                        </div>
-                        <div className="tiddy-container">
-                           <h3 style={{color: "var(--primary-light)", fontSize: "1.375rem", fontWeight: 900}}><br /><br />What is the Tiddy Twister?</h3>
-                          </div>
-                    </Col>
+                      </Col>
                    </Row>
                    <Row customClass={styles.dapp__blocks}>
                     <Col xs="12" style={{paddingBottom: 0}}>
