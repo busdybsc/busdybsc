@@ -104,23 +104,11 @@ transaction details, token origin, and your destination wallet using built
                     ></MixerInterface>
 <Col xs="12" sm="4" style={{backgroundColor: "#26262b", padding: "30px", borderRadius: "20px", fontSize: "1rem", height: "100%", width: 'auto', margin: 'auto', marginTop: 0, marginBottom: isMobile ? '20px' : 0, borderRight: isMobile ? '10px solid #E14D81' : '', borderLeft: isMobile ? '10px solid #E14D81' : ''}} >
                     <div style={{width: '100%', textAlign: 'center', paddingBottom: '30px'}}>
-                        <Image src="/images/TT text no spinner.png"  width={380} height={200} />
+                        <Image src="/images/TT arrow graphix.png"  width={380} height={200} />
                        </div>
                         <div className="tiddy-container">
                            <h3 style={{color: "var(--primary-light)", fontSize: "1.375rem", fontWeight: 900}}><br /><br />What is the Tiddy Twister?</h3>
-                            <p>
-                            Welcome to the TIDDY TWISTER anonymous cross-chain bridge, powered by the security of Blockblend technology. <strong>Discreetly</strong> transfer native tokens across multiple blockchains 
-(wallet connection optional). 
-                            </p>
-                            <p>
-                             Tiddy Twister is an anonymous cross-chain bridge that is currently supporting transactions on ETH, BNB, AVAX, CRO, Fantom, and Polygon.
-                            </p>
-                            <p>
-                            The TIDDY TWISTER will privatize your cryptocurrency 
-transaction details, token origin, and your destination wallet using built
- in cross-chain functionality.  The easiest anonymous cross-chain bridge in DeFi.
-</p>
-                        </div>
+                          </div>
                     </Col>
                    </Row>
                    <Row customClass={styles.dapp__blocks}>
