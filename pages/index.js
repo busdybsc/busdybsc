@@ -102,12 +102,12 @@ transaction details, token origin, and your destination wallet using built
                         user_account={connectedAddress}
                         onConnect={onConnect}
                     ></MixerInterface>
+                   </Row>
                     <Col xs="12" sm="4" style={{backgroundColor: "#26262b", padding: "30px", borderRadius: "20px", fontSize: "1rem", height: "100%", width: 'auto', margin: 'auto', marginTop: 0, marginBottom: isMobile ? '20px' : 0, borderRight: isMobile ? '10px solid #E14D81' : '', borderLeft: isMobile ? '10px solid #E14D81' : ''}} >
                     <div style={{width: '100%', textAlign: 'center', paddingBottom: '30px'}}>
                      {!isMobile && (   <Image src="/images/TT text no spinner.png"  width={493} height={750} />
                        </div>
                      </Col>
-                </Row>
                 <Row customClass={styles.dapp__blocks}>
                     <Col xs="12" style={{paddingBottom: 0}}>
                         <h2 id="howitworks">
