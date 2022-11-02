@@ -17,7 +17,7 @@ const Footer = () => {
                 <a href="https://www.tiddytwister.com/">
                   <Image
                     styles={{ marginRight: "3rem" }}
-                    src="/images/TT Logo Main_silver.png"
+                    src="/images/TT text only blue.png"
                     alt="Blockblend"
                     width={110}
                     height={110}
