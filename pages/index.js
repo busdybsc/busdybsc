@@ -182,7 +182,7 @@ What you choose to do with your crypto should remain YOUR BUSINESS and most impo
                     {isMobile && (
                     <Image
                         styles={{ marginRight: "0"}}
-                        src="/images/TT arrow graphix.png"
+                        src="/images/TT arrow & spiral graphix.png"
                         alt="$BUSDY"
                         width={433.1}
                         height={770}
