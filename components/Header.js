@@ -65,7 +65,7 @@ const Header = (props) => {
                         <div className={styles.header__logo} onClick={() => window.location = 'https://www.tiddytwister.com'}>
                             <Link href="https://www.tiddytwister.com">
                                 <>
-                                <div className={styles.header__logo_img} style={{ width: !isMobile ? '90px' : 'auto', height: '90px'}}>
+//                                <div className={styles.header__logo_img} style={{ width: !isMobile ? '90px' : 'auto', height: '90px'}}>
 //                                     <div className={styles.header__logo_inner}>
 //                                         <Image
 //                                             styles={{}}
