@@ -20,7 +20,7 @@ const Footer = () => {
                     src="/images/TT text only blue.png"
                     alt="Blockblend"
                     width={110}
-                    height={110}
+                    height={80}
                     layout="fixed"
                   />
                 </a>
