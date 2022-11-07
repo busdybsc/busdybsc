@@ -30,25 +30,25 @@ const Footer = () => {
             <Col xs="12" md="6" customClass={styles.footer__right}>
               <ul className={styles.footer__links}>
                 <li>
-                  <a rel="noreferrer" href="https://t.me/TiddyTwister" target="_blank">Telegram</a>
+                  <a rel="noreferrer" target="_blank">Telegram</a>
                 </li>
                 <li>
-                  <a rel="noreferrer" href="https://twitter.com/TheTiddyTwister" target="_blank">Twitter</a>
+                  <a rel="noreferrer"  target="_blank">Twitter</a>
                 </li>
                 <li>
-                  <a rel="noreferrer" href="https://www.reddit.com/user/The_Tiddy_Twister/" target="_blank">Reddit</a>
+                  <a rel="noreferrer"  target="_blank">Reddit</a>
                 </li>
                 <li>
-                  <a href="https://medium.com/@tiddytwistertoken/" target="_blank" rel="noreferrer">Medium</a>
+                  <a target="_blank" rel="noreferrer">Medium</a>
                 </li>
                 <li>
-                  <a rel="noreferrer" href="https://discord.gg/kp7f3n9Fbr" target="_blank">Discord</a>
+                  <a rel="noreferrer" target="_blank">Discord</a>
                 </li>
                 <li>
-                  <a rel="noreferrer" href="https://www.youtube.com/watch?v=5Fbfhgx31Pw&t=57s&ab_channel=BusdyToken" target="_blank">YouTube Tutorial</a>
+                  <a rel="noreferrer" target="_blank">YouTube Tutorial</a>
                 </li>
                 {/* <li>
-                  <a rel="noreferrer" href="https://bscscan.com/address/0x5bebfab847dd89b1d03ca654685bac07aa01224e" target="_blank">Contract (BSC)</a>
+                  <a rel="noreferrer" target="_blank">Contract (BSC)</a>
                 </li> */}
                 <li>
                   <a rel="noreferrer" href="https://audits.solidgrp.io/blockblend/summary" target="_blank">Audit</a>
